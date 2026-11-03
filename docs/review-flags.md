@@ -38,3 +38,12 @@ Every question is for Homi's review before release. Writers' uncertain items are
 - mg-t0014 transfusion threshold 7 g/dL; mg-t0010 Glasgow-Blatchford cut-off (guideline-dependent)
 - mh-t0020 pre-transfusion Hb 9-10.5 g/dL in thalassaemia; mh-t0005 lead in surma; me-t0026 repeat tests in subclinical hypothyroidism; mh-t0050 weak distractor
 - so-t0013 hemiarthroplasty vs total hip replacement; sk-t0045 orchidopexy at 6-18 months; so-p0018 safe gluteal injection site in a child; so-t0028 fasciotomy threshold (delta pressure < 30 mmHg)
+- sv-t0019 endovenous ablation first choice; sv-t0040 intrapleural tPA with DNase; st-t0044 burns fluid timing; st-t0010 pelvic binder before angio/packing; sp-t0060 7 g/dL transfusion threshold
+- ph-p0011 low oncotic pressure as main cause of nephrotic oedema (debated); ph-t0080 glucose level where insulin secretion falls; ph-p0044 C3 cord injury level; ph-p0057 ammonium as main acid-excretion response
+- pg-t0030 IPV at 14 weeks, rotavirus 2 doses; pg-t0035 TB-positive mother: breastfeed + isoniazid for baby; pi-t0058 pre-transfusion Hb 9-10.5 g/dL; pi-p0029 avoid valproate in a teenage girl; pn-t0040 malrotation (may suit surgery better)
+- fm-t0008, fm-p0012 PPC hurt definitions (shajjah-i-hashimah, jaifah); fm-t0039 police inquest usual in Pakistan; fm-p0058 only a magistrate orders exhumation; fm-p0059 organ-sale law; fm-t0034 kala pathar: airway the most immediate threat; fm-p0050 prazosin for scorpion sting
+- en-t0019 "avoid biopsy" in angiofibroma; negative stems: en-t0019, en-t0041, en-p0006, fm-p0041
+- ey-p0014 cataract as Pakistan's leading cause of blindness; ey-t0029 retinal screening at diagnosis in type 2 diabetes; mx-t0010 IV adrenaline infusion for refractory anaphylaxis; mx-t0016 atropine end point; my-t0035 review 1 week after starting an SSRI under 25
+- pa-t0022 wound strength 70-80% at 3 months; ps-t0060 XDR typhoid susceptible to azithromycin; ps-t0064 IgM anti-HBc as acute (also rises in chronic flares); ps-p0035 Cushing screening test choice; ps-p0049 Xpert about 2 hours
+- sb-t0027 FHH: urine calcium as next step; sb-t0037 hormone tests for adrenal incidentaloma; sn-p0006 blind emergency burr hole; sg-t0077 Ogilvie's: neostigmine second-line; sg-t0059 HCC diagnosed on CT without biopsy
+- sk-p0018 timing of infant umbilical hernia repair (3-5 years); mi-t0055 qSOFA definition; mg-p0008 hepatopulmonary syndrome (hard)
