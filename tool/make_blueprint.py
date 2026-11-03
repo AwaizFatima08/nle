@@ -82,7 +82,7 @@ SECTIONS = [
 PAPERS = 10
 MODES = {
     "nle": {
-        "title": "NLE Step 1", "subtitle": "NRE theory: 200 MCQs", "minutes": 210, "questions": 200,
+        "title": "NLE Step 1", "subtitle": "Step 1 (NRE theory paper)", "minutes": 210, "questions": 200,
         "streams": {"step1": {"title": "NLE Mock", "sections": [(k, {t[0]: t[3] for t in topics}) for k, _, _, topics in SECTIONS]}},
     },
 }
