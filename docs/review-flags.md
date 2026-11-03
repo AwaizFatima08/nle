@@ -28,3 +28,13 @@ Every question is for Homi's review before release. Writers' uncertain items are
 - mc-t0050 duration of rheumatic fever prophylaxis
 - mp-t0037 management of a small primary pneumothorax
 - mp-t0029 thrombolysis for life-threatening PE
+- cm-t0043, cm-t0051 details of Pakistan's EPI schedule
+- cm-t0055 residual chlorine range; cm-p0040 partograph alert-line action; cm-p0055 BHU, RHC, THQ, DHQ order
+- bc-p0046 inheritance of Leber hereditary optic neuropathy (unusual wording)
+- ah-t0006 facial nerve lesion "just distal to the geniculate ganglion" wording
+- at-t0016 pleura below the medial 12th rib
+- al-t0040 phrenic palsy after supraclavicular (not interscalene) block
+- at-t0025 cremasteric reflex (motor limb only asked)
+- mg-t0014 transfusion threshold 7 g/dL; mg-t0010 Glasgow-Blatchford cut-off (guideline-dependent)
+- mh-t0020 pre-transfusion Hb 9-10.5 g/dL in thalassaemia; mh-t0005 lead in surma; me-t0026 repeat tests in subclinical hypothyroidism; mh-t0050 weak distractor
+- so-t0013 hemiarthroplasty vs total hip replacement; sk-t0045 orchidopexy at 6-18 months; so-p0018 safe gluteal injection site in a child; so-t0028 fasciotomy threshold (delta pressure < 30 mmHg)
