@@ -1,24 +1,24 @@
 {
-  "_note": "AdMob config for Prep Simulator for NLE (Android). Ad ids are not secrets; debug builds use Google's sample ids and release builds these. PENDING: create the app and units in the AdMob account homilabs.smc@gmail.com, then fill in the ids below, lib/ads/ad_ids.dart and the manifest, and run scripts/check-release-ad-ids.sh.",
+  "_note": "AdMob config for Prep Simulator for NLE (Android). Created 4 Nov 2026 in the AdMob account homilabs.smc@gmail.com. Ad ids are not secrets; debug builds use Google's sample ids and release builds these.",
   "account": "homilabs.smc@gmail.com",
   "publisher_id": "pub-2087846699268567",
   "app": {
     "name": "Prep Simulator for NLE",
     "platform": "android",
-    "app_id": "PENDING",
-    "status": "not created yet"
+    "app_id": "ca-app-pub-2087846699268567~9863225682",
+    "status": "requires review (link the Play listing once published)"
   },
   "ad_units": {
     "home_banner": {
       "name": "nle_home_banner",
       "format": "banner",
-      "id": "PENDING",
+      "id": "ca-app-pub-2087846699268567/2615466060",
       "placement": "Home tabs only"
     },
     "results_interstitial": {
       "name": "nle_results_interstitial",
       "format": "interstitial",
-      "id": "PENDING",
+      "id": "ca-app-pub-2087846699268567/1302384395",
       "placement": "when leaving a results screen or a finished practice set; at most once every 5 minutes; never during a mock, practice question or review"
     }
   },

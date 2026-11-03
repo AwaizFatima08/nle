@@ -7,8 +7,8 @@ abstract final class AdIds {
   static const _testInterstitial = 'ca-app-pub-3940256099942544/1033173712';
 
   // Real units from the HomiLabs AdMob account (homilabs.smc@gmail.com); see config/admob.json.
-  static const _liveBanner = 'PENDING';
-  static const _liveInterstitial = 'PENDING';
+  static const _liveBanner = 'ca-app-pub-2087846699268567/2615466060';
+  static const _liveInterstitial = 'ca-app-pub-2087846699268567/1302384395';
 
   static String get banner => kReleaseMode ? _liveBanner : _testBanner;
   static String get interstitial => kReleaseMode ? _liveInterstitial : _testInterstitial;

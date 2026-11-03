@@ -13,11 +13,10 @@
 - After Play launch: replace "Coming soon on Google Play" with the Play link, and add the app to homilabs.org.
 
 ## AdMob (account homilabs.smc@gmail.com)
-1. Apps → Add app → Android, not yet published → name "Prep Simulator for NLE".
-2. Ad units: banner `nle_home_banner`, interstitial `nle_results_interstitial`.
-3. Put the app id and unit ids into `config/admob.json`, `lib/ads/ad_ids.dart` (`_liveBanner`, `_liveInterstitial`) and the AndroidManifest meta-data; run `bash scripts/check-release-ad-ids.sh`.
-4. After the Play listing is live: AdMob → Apps → this app → Add store (com.homilabs.nle_prep). `app-ads.txt` is already in `website/`.
-5. Privacy & messaging: publish a European regulations message for EEA/UK users (the app already runs Google UMP).
+- Created 4 Nov 2026: app "Prep Simulator for NLE", App ID `ca-app-pub-2087846699268567~9863225682`; units banner `nle_home_banner` and interstitial `nle_results_interstitial` (ids in `config/admob.json`). Debug builds use Google test units.
+- "Limited ad serving" until the Play listing is live.
+- After the Play listing is live: AdMob → Apps → this app → Add store (com.homilabs.nle_prep). `app-ads.txt` is already in `website/`.
+- Privacy & messaging: publish a European regulations message for EEA/UK users (the app already runs Google UMP).
 
 ## Play Console
 | Item | Value |

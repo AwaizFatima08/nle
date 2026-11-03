@@ -12,3 +12,19 @@
 
 ## Medical content
 Every question is for Homi's review before release. Writers' uncertain items are listed below as they finish.
+
+### Writers' uncertain items
+- mu-p0003 driving advice after a first seizure (Pakistan licensing rules are vague)
+- mi-t0038 Ratodero HIV outbreak cause
+- mi-t0006 typhoid conjugate vaccine at 9 months in EPI
+- md-t0015 intralesional antimonial as common practice in Pakistan
+- mi-t0016 antimalarial in pregnancy (WHO allows artemether-lumefantrine in the first trimester)
+- pc-t0075 metronidazole and alcohol reaction (classic teaching, weak evidence)
+- pc-t0080 blood gas values in aspirin overdose
+- pc-t0054, pc-p0087 guidance varies slightly
+- ob-t0040 metformin first for gestational diabetes (NICE; some bodies prefer insulin)
+- ob-p0030, ob-p0031 delivery timing in pre-existing diabetes, glucose target in labour (NICE)
+- gy-t0048 PID antibiotic regimen details vary between bodies
+- mc-t0050 duration of rheumatic fever prophylaxis
+- mp-t0037 management of a small primary pneumothorax
+- mp-t0029 thrombolysis for life-threatening PE
