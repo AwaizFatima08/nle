@@ -47,3 +47,8 @@ Every question is for Homi's review before release. Writers' uncertain items are
 - pa-t0022 wound strength 70-80% at 3 months; ps-t0060 XDR typhoid susceptible to azithromycin; ps-t0064 IgM anti-HBc as acute (also rises in chronic flares); ps-p0035 Cushing screening test choice; ps-p0049 Xpert about 2 hours
 - sb-t0027 FHH: urine calcium as next step; sb-t0037 hormone tests for adrenal incidentaloma; sn-p0006 blind emergency burr hole; sg-t0077 Ogilvie's: neostigmine second-line; sg-t0059 HCC diagnosed on CT without biopsy
 - sk-p0018 timing of infant umbilical hernia repair (3-5 years); mi-t0055 qSOFA definition; mg-p0008 hepatopulmonary syndrome (hard)
+
+## Blind answer check (4 Nov 2026)
+- All 3,200 questions answered blind by 4 independent solvers: 3,079 agreed with the key. The 121 disagreements (89 of them from one solver whose answers had drifted out of order) were re-solved blind by a fresh solver, which agreed with the key on 120.
+- Tightened after the check: mc-t0005 (asthma now severe, so verapamil over bisoprolol is clear) and sp-t0034 (asks about the chest findings, not the cause of a day-1 fever). pc-p0074 pronoun fixed.
+- Solver noted these rest on a single standard: pn-t0040 (upper GI contrast for malrotation), st-t0007 (needle cricothyroidotomy), so-p0004 (hip ultrasound for DDH).
