@@ -1,0 +1,65 @@
+import 'dart:async';
+
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
+import 'package:nle_prep/app.dart';
+import 'package:nle_prep/content/content_repository.dart';
+import 'package:nle_prep/settings/settings_repository.dart';
+import 'package:nle_prep/ui/async_value_view.dart';
+import 'package:nle_prep/ui/theme.dart';
+
+class PracticeTab extends ConsumerWidget {
+  const PracticeTab({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final tally = ref.watch(practiceTallyProvider).value ?? const <String, List<int>>{};
+    return AsyncBody(
+      value: ref.watch(catalogProvider),
+      data: (catalog) => ListView(
+        padding: const EdgeInsetsDirectional.all(AppSpacing.md),
+        children: [
+          Text(context.l10n.practiceIntro),
+          const SizedBox(height: AppSpacing.sm),
+          for (final basic in [false, true]) ...[
+            Padding(
+              padding: const EdgeInsetsDirectional.only(
+                top: AppSpacing.md,
+                bottom: AppSpacing.xs,
+              ),
+              child: Text(
+                basic ? context.l10n.groupBasic : context.l10n.groupClinical,
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+            ),
+            for (final section in catalog.sections.where(
+              (s) => s.isBasic == basic,
+            ))
+              Card(
+                child: ExpansionTile(
+                  title: Text(section.title),
+                  children: [
+                    for (final topic in section.topics)
+                      ListTile(
+                        title: Text(topic.title),
+                        subtitle: switch (tally['${section.key}/${topic.key}']) {
+                          [final correct, final total] => Text(
+                            context.l10n.practiceTally(correct, total),
+                          ),
+                          _ => null,
+                        },
+                        trailing: const Icon(Icons.chevron_right),
+                        onTap: () => unawaited(
+                          context.push('/practice/${section.key}/${topic.key}'),
+                        ),
+                      ),
+                  ],
+                ),
+              ),
+          ],
+        ],
+      ),
+    );
+  }
+}

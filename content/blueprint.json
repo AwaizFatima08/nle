@@ -1,0 +1,518 @@
+{
+ "sections": [
+  {
+   "key": "medicine",
+   "title": "Medicine and Allied",
+   "group": "clinical",
+   "topics": [
+    {
+     "key": "cardiology",
+     "prefix": "mc",
+     "title": "Cardiology",
+     "test": 60,
+     "practice": 15,
+     "scope": "IHD, ACS, heart failure, arrhythmias and ECG, hypertension, valvular disease, rheumatic fever, endocarditis, pericardial disease."
+    },
+    {
+     "key": "pulmonology",
+     "prefix": "mp",
+     "title": "Pulmonology",
+     "test": 50,
+     "practice": 15,
+     "scope": "Asthma, COPD, pneumonia, TB (clinical), ILD, PE, pleural effusion, pneumothorax, lung cancer, ABGs."
+    },
+    {
+     "key": "gastro",
+     "prefix": "mg",
+     "title": "Gastroenterology and Hepatology",
+     "test": 50,
+     "practice": 15,
+     "scope": "Dyspepsia, PUD, GI bleeding, IBD, malabsorption, hepatitis B/C, cirrhosis, ascites, encephalopathy, pancreatitis."
+    },
+    {
+     "key": "nephrology",
+     "prefix": "mn",
+     "title": "Nephrology",
+     "test": 40,
+     "practice": 12,
+     "scope": "AKI, CKD, nephrotic/nephritic syndromes, electrolytes, acid-base, dialysis indications, UTI."
+    },
+    {
+     "key": "endocrinology",
+     "prefix": "me",
+     "title": "Endocrinology and Diabetes",
+     "test": 50,
+     "practice": 15,
+     "scope": "Diabetes and its emergencies, thyroid, adrenal, pituitary, calcium disorders."
+    },
+    {
+     "key": "neurology",
+     "prefix": "mu",
+     "title": "Neurology",
+     "test": 50,
+     "practice": 15,
+     "scope": "Stroke, epilepsy, headache, meningitis/encephalitis, GBS, myasthenia, Parkinson's, MS, coma."
+    },
+    {
+     "key": "haematology",
+     "prefix": "mh",
+     "title": "Haematology and Oncology",
+     "test": 50,
+     "practice": 15,
+     "scope": "Anaemias, thalassaemia, bleeding and clotting disorders, leukaemia, lymphoma, transfusion."
+    },
+    {
+     "key": "infectious",
+     "prefix": "mi",
+     "title": "Infectious Diseases",
+     "test": 60,
+     "practice": 15,
+     "scope": "Typhoid, malaria, dengue, TB treatment, HIV, hepatitis, rabies, tetanus, sepsis; Pakistan-relevant infections."
+    },
+    {
+     "key": "rheumatology",
+     "prefix": "mr",
+     "title": "Rheumatology",
+     "test": 30,
+     "practice": 10,
+     "scope": "RA, SLE, gout, spondyloarthritis, vasculitis, osteoarthritis."
+    },
+    {
+     "key": "psychiatry",
+     "prefix": "my",
+     "title": "Psychiatry",
+     "test": 40,
+     "practice": 12,
+     "scope": "Depression, anxiety, psychosis, bipolar, substance use, delirium vs dementia, suicide risk, psychotropic side effects."
+    },
+    {
+     "key": "dermatology",
+     "prefix": "md",
+     "title": "Dermatology",
+     "test": 20,
+     "practice": 6,
+     "scope": "Eczema, psoriasis, scabies, fungal infections, leishmaniasis, acne, drug eruptions."
+    },
+    {
+     "key": "emergency",
+     "prefix": "mx",
+     "title": "Emergency and Critical Care",
+     "test": 20,
+     "practice": 5,
+     "scope": "Shock, poisoning, anaphylaxis, resuscitation, organophosphate and snake bite."
+    }
+   ]
+  },
+  {
+   "key": "surgery",
+   "title": "Surgery and Allied",
+   "group": "clinical",
+   "topics": [
+    {
+     "key": "principles",
+     "prefix": "sp",
+     "title": "Principles of Surgery and Anaesthesia",
+     "test": 60,
+     "practice": 18,
+     "scope": "Fluids, nutrition, wound healing, surgical infection, perioperative care, anaesthesia, shock, blood transfusion."
+    },
+    {
+     "key": "trauma",
+     "prefix": "st",
+     "title": "Trauma and Emergency Surgery",
+     "test": 60,
+     "practice": 18,
+     "scope": "ATLS, head injury, chest and abdominal trauma, burns, acute abdomen."
+    },
+    {
+     "key": "gi",
+     "prefix": "sg",
+     "title": "GI and Hepatobiliary Surgery",
+     "test": 80,
+     "practice": 25,
+     "scope": "Oesophagus, stomach, small and large bowel, appendix, anorectal, gallbladder, liver, pancreas, intestinal obstruction."
+    },
+    {
+     "key": "breast-endocrine",
+     "prefix": "sb",
+     "title": "Breast and Endocrine Surgery",
+     "test": 40,
+     "practice": 12,
+     "scope": "Breast lumps and cancer, thyroid nodules and surgery, parathyroid, adrenal surgery."
+    },
+    {
+     "key": "urology",
+     "prefix": "su",
+     "title": "Urology",
+     "test": 50,
+     "practice": 15,
+     "scope": "Stones, BPH, urinary retention, testicular torsion, scrotal swellings, renal and bladder tumours."
+    },
+    {
+     "key": "orthopaedics",
+     "prefix": "so",
+     "title": "Orthopaedics",
+     "test": 60,
+     "practice": 18,
+     "scope": "Fractures and dislocations, compartment syndrome, osteomyelitis, bone tumours, spine, nerve injuries."
+    },
+    {
+     "key": "vascular",
+     "prefix": "sv",
+     "title": "Vascular and Cardiothoracic Surgery",
+     "test": 40,
+     "practice": 12,
+     "scope": "Limb ischaemia, aneurysm, varicose veins, DVT, chest drains, empyema."
+    },
+    {
+     "key": "neuro-headneck",
+     "prefix": "sn",
+     "title": "Neurosurgery and Head and Neck",
+     "test": 40,
+     "practice": 12,
+     "scope": "Raised ICP, extradural/subdural haematoma, neck lumps, salivary glands, oral lesions."
+    },
+    {
+     "key": "skin-hernia",
+     "prefix": "sk",
+     "title": "Skin, Soft Tissue, Hernia and Paediatric Surgery",
+     "test": 50,
+     "practice": 20,
+     "scope": "Hernias, lumps and ulcers, skin cancers, abscesses, pyloric stenosis, intussusception, undescended testis."
+    }
+   ]
+  },
+  {
+   "key": "obgyn",
+   "title": "Obstetrics and Gynaecology",
+   "group": "clinical",
+   "topics": [
+    {
+     "key": "obstetrics",
+     "prefix": "ob",
+     "title": "Obstetrics",
+     "test": 90,
+     "practice": 65,
+     "scope": "Antenatal care, bleeding in pregnancy, hypertension and diabetes in pregnancy, labour, PPH, puerperium, anaemia in pregnancy."
+    },
+    {
+     "key": "gynaecology",
+     "prefix": "gy",
+     "title": "Gynaecology",
+     "test": 50,
+     "practice": 35,
+     "scope": "Menstrual disorders, infertility, contraception, PCOS, fibroids, prolapse, gynaecological cancers, infections."
+    }
+   ]
+  },
+  {
+   "key": "paeds",
+   "title": "Paediatrics",
+   "group": "clinical",
+   "topics": [
+    {
+     "key": "neonatology",
+     "prefix": "pn",
+     "title": "Neonatology",
+     "test": 40,
+     "practice": 30,
+     "scope": "Neonatal resuscitation, jaundice, sepsis, prematurity, birth asphyxia, feeding."
+    },
+    {
+     "key": "growth",
+     "prefix": "pg",
+     "title": "Growth, Nutrition and Immunisation",
+     "test": 40,
+     "practice": 30,
+     "scope": "Milestones, malnutrition, rickets, Pakistan EPI schedule, breastfeeding."
+    },
+    {
+     "key": "illness",
+     "prefix": "pi",
+     "title": "Childhood Illness",
+     "test": 60,
+     "practice": 40,
+     "scope": "Diarrhoea and dehydration, pneumonia, IMCI, congenital heart disease, nephrotic syndrome, convulsions, measles, thalassaemia."
+    }
+   ]
+  },
+  {
+   "key": "eye",
+   "title": "Ophthalmology",
+   "group": "clinical",
+   "topics": [
+    {
+     "key": "eye",
+     "prefix": "ey",
+     "title": "Ophthalmology",
+     "test": 60,
+     "practice": 60,
+     "scope": "Red eye, cataract, glaucoma, diabetic and hypertensive retinopathy, trauma, squint, refractive errors, trachoma."
+    }
+   ]
+  },
+  {
+   "key": "ent",
+   "title": "Otorhinolaryngology (ENT)",
+   "group": "clinical",
+   "topics": [
+    {
+     "key": "ent",
+     "prefix": "en",
+     "title": "ENT",
+     "test": 60,
+     "practice": 60,
+     "scope": "Otitis media, hearing loss, vertigo, epistaxis, sinusitis, tonsillitis, airway, foreign bodies, head and neck cancer."
+    }
+   ]
+  },
+  {
+   "key": "pathology",
+   "title": "Applied Pathology",
+   "group": "basic",
+   "topics": [
+    {
+     "key": "general",
+     "prefix": "pa",
+     "title": "General Pathology",
+     "test": 60,
+     "practice": 45,
+     "scope": "Cell injury, inflammation, healing, haemodynamics, immunity, neoplasia, genetics."
+    },
+    {
+     "key": "systemic",
+     "prefix": "ps",
+     "title": "Systemic Pathology and Haematology",
+     "test": 70,
+     "practice": 55,
+     "scope": "Systemic disease, blood cells, bleeding disorders, chemical pathology, microbiology basics."
+    }
+   ]
+  },
+  {
+   "key": "anatomy",
+   "title": "Applied Anatomy",
+   "group": "basic",
+   "topics": [
+    {
+     "key": "limbs",
+     "prefix": "al",
+     "title": "Limbs and Back",
+     "test": 40,
+     "practice": 30,
+     "scope": "Brachial and lumbosacral plexus, nerve injuries, joints, vessels, clinical anatomy of the limbs."
+    },
+    {
+     "key": "trunk",
+     "prefix": "at",
+     "title": "Thorax, Abdomen and Pelvis",
+     "test": 50,
+     "practice": 40,
+     "scope": "Heart, lungs, abdominal viscera, inguinal canal, pelvis, perineum; embryology and histology where clinical."
+    },
+    {
+     "key": "head-neuro",
+     "prefix": "ah",
+     "title": "Head, Neck and Neuroanatomy",
+     "test": 40,
+     "practice": 30,
+     "scope": "Cranial nerves, neck triangles, brain blood supply, spinal cord tracts, lesions."
+    }
+   ]
+  },
+  {
+   "key": "physiology",
+   "title": "Applied Physiology",
+   "group": "basic",
+   "topics": [
+    {
+     "key": "physiology",
+     "prefix": "ph",
+     "title": "Applied Physiology",
+     "test": 100,
+     "practice": 100,
+     "scope": "Cell, blood, cardiovascular, respiratory, renal, GI, endocrine, reproductive and neurophysiology applied to cases."
+    }
+   ]
+  },
+  {
+   "key": "pharmacology",
+   "title": "Clinical Pharmacology",
+   "group": "basic",
+   "topics": [
+    {
+     "key": "pharmacology",
+     "prefix": "pc",
+     "title": "Clinical Pharmacology",
+     "test": 80,
+     "practice": 100,
+     "scope": "Pharmacokinetics, ANS, CNS, CVS, diuretics, GIT, endocrine drugs, antimicrobials, chemotherapy, side effects and interactions."
+    }
+   ]
+  },
+  {
+   "key": "biochemistry",
+   "title": "Applied Biochemistry",
+   "group": "basic",
+   "topics": [
+    {
+     "key": "biochemistry",
+     "prefix": "bc",
+     "title": "Applied Biochemistry",
+     "test": 60,
+     "practice": 60,
+     "scope": "Enzymes, metabolism and its disorders, vitamins, nutrition, molecular biology, lab tests."
+    }
+   ]
+  },
+  {
+   "key": "community",
+   "title": "Community Medicine",
+   "group": "basic",
+   "topics": [
+    {
+     "key": "community",
+     "prefix": "cm",
+     "title": "Community Medicine",
+     "test": 60,
+     "practice": 60,
+     "scope": "Epidemiology, biostatistics, screening, communicable disease control, MCH, nutrition, occupational and environmental health, Pakistan health system, ethics."
+    }
+   ]
+  },
+  {
+   "key": "forensic",
+   "title": "Forensic Medicine and Toxicology",
+   "group": "basic",
+   "topics": [
+    {
+     "key": "forensic",
+     "prefix": "fm",
+     "title": "Forensic Medicine and Toxicology",
+     "test": 40,
+     "practice": 60,
+     "scope": "Injuries, death and post-mortem changes, identification, sexual offences, poisoning, medical law and ethics in Pakistan."
+    }
+   ]
+  }
+ ],
+ "modes": {
+  "nle": {
+   "title": "NLE Step 1",
+   "subtitle": "NRE theory: 200 MCQs",
+   "minutes": 210,
+   "questions": 200,
+   "streams": {
+    "step1": {
+     "title": "NLE Mock",
+     "sections": [
+      {
+       "section": "medicine",
+       "quota": {
+        "cardiology": 6,
+        "pulmonology": 5,
+        "gastro": 5,
+        "nephrology": 4,
+        "endocrinology": 5,
+        "neurology": 5,
+        "haematology": 5,
+        "infectious": 6,
+        "rheumatology": 3,
+        "psychiatry": 4,
+        "dermatology": 2,
+        "emergency": 2
+       }
+      },
+      {
+       "section": "surgery",
+       "quota": {
+        "principles": 6,
+        "trauma": 6,
+        "gi": 8,
+        "breast-endocrine": 4,
+        "urology": 5,
+        "orthopaedics": 6,
+        "vascular": 4,
+        "neuro-headneck": 4,
+        "skin-hernia": 5
+       }
+      },
+      {
+       "section": "obgyn",
+       "quota": {
+        "obstetrics": 9,
+        "gynaecology": 5
+       }
+      },
+      {
+       "section": "paeds",
+       "quota": {
+        "neonatology": 4,
+        "growth": 4,
+        "illness": 6
+       }
+      },
+      {
+       "section": "eye",
+       "quota": {
+        "eye": 6
+       }
+      },
+      {
+       "section": "ent",
+       "quota": {
+        "ent": 6
+       }
+      },
+      {
+       "section": "pathology",
+       "quota": {
+        "general": 6,
+        "systemic": 7
+       }
+      },
+      {
+       "section": "anatomy",
+       "quota": {
+        "limbs": 4,
+        "trunk": 5,
+        "head-neuro": 4
+       }
+      },
+      {
+       "section": "physiology",
+       "quota": {
+        "physiology": 10
+       }
+      },
+      {
+       "section": "pharmacology",
+       "quota": {
+        "pharmacology": 8
+       }
+      },
+      {
+       "section": "biochemistry",
+       "quota": {
+        "biochemistry": 6
+       }
+      },
+      {
+       "section": "community",
+       "quota": {
+        "community": 6
+       }
+      },
+      {
+       "section": "forensic",
+       "quota": {
+        "forensic": 4
+       }
+      }
+     ]
+    }
+   }
+  }
+ },
+ "papers": 10
+}

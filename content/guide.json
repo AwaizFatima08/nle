@@ -1,0 +1,190 @@
+{
+ "articles": [
+  {
+   "id": "about",
+   "group": "Start here",
+   "title": "What is the NLE (NRE)?",
+   "lines": [
+    "The National Licensing Examination (NLE) is the exam that doctors who qualified from a foreign medical college must pass before they can get a full licence to practise as a general practitioner in Pakistan. Under the PM&DC Act 2022, Pakistan Medical and Dental Council (PM&DC) now calls it the National Registration Examination (NRE). Most candidates and coaching centres still say NLE; it is the same exam.",
+    "## Two components",
+    "- Theory (often called Step 1): 200 computer-based single-best-answer MCQs.",
+    "- Clinical Skills Examination (CSE, often called Step 2): an OSCE of 20 stations.",
+    "You must pass both components separately. Only candidates who pass the theory component can sit the CSE.",
+    "## What this app covers",
+    "This app prepares you for the theory component: 10 full-length mock papers weighted like the real paper, subject practice with explanations, and these rules and tips.",
+    "PM&DC can change the format, dates and fees. Your admit card and the official notices on the PM&DC website always come first."
+   ]
+  },
+  {
+   "id": "pattern",
+   "group": "Start here",
+   "title": "Theory paper at a glance",
+   "lines": [
+    "## Format",
+    "- 200 MCQs, single best answer from the options given.",
+    "- Questions target higher cognition: applying knowledge to clinical problems, not just recall.",
+    "- 70% clinical sciences (140 MCQs) and 30% applied basic sciences (60 MCQs).",
+    "- No negative marking: a wrong answer costs nothing, so never leave a question blank.",
+    "- Pass mark: 60%. PM&DC also uses the Angoff method to standardise the exam.",
+    "## Clinical sciences: 140 MCQs",
+    "- Medicine and Allied: 52",
+    "- Surgery and Allied: 48",
+    "- Obstetrics and Gynaecology: 14",
+    "- Paediatrics: 14",
+    "- Ophthalmology: 6",
+    "- ENT: 6",
+    "## Applied basic sciences: 60 MCQs",
+    "PM&DC's 2024 standard lists Applied Pathology 11, Applied Anatomy 11, Applied Physiology 10, Clinical Pharmacology 8, Applied Biochemistry 6, Community Medicine 6 and Forensic Medicine and Toxicology 4. Those numbers add up to 56, not the stated 60, so this app's mock papers use 13 Pathology and 13 Anatomy to make a full 200-question paper.",
+    "## Timing",
+    "PM&DC's standard does not state the length of the theory paper. Candidates and prep providers report about 3 hours 30 minutes, so the mock papers here use 210 minutes. Check your admit card for the real timing."
+   ]
+  },
+  {
+   "id": "eligibility",
+   "group": "Rules and guidelines",
+   "title": "Eligibility and registration",
+   "lines": [
+    "## Who can sit",
+    "Graduates of PM&DC-approved foreign medical colleges with an MBBS, MD or equivalent degree (as listed in PM&DC's approved foreign degree nomenclature), who hold a provisional licence from PM&DC.",
+    "## Typical steps",
+    "- Get your provisional licence from PM&DC first.",
+    "- Create or log in to your account on the PM&DC online portal and apply for the announced NRE session before registration closes.",
+    "- Upload the documents asked for, usually your degree, transcripts, identity document (CNIC or passport) and photographs.",
+    "- Pay the exam fee online as instructed.",
+    "- Download your admit card (roll number slip) once your application is approved, and check your name, photo, centre and timing.",
+    "## Frequency",
+    "PM&DC holds the NRE at least twice a year, at several centres across Pakistan. Dates are announced, and sometimes moved, through PM&DC notices, so check the website regularly."
+   ]
+  },
+  {
+   "id": "examday",
+   "group": "Rules and guidelines",
+   "title": "Exam-day rules",
+   "lines": [
+    "These are the usual rules for a computer-based licensing exam in Pakistan. Your admit card and the centre staff's instructions are what count on the day.",
+    "## Bring",
+    "- Your printed admit card.",
+    "- Your original identity document (CNIC, or passport for foreign nationals), matching the name on your admit card.",
+    "- Anything else your admit card lists. Leave everything else at home or in your car.",
+    "## Do not bring into the hall",
+    "- Mobile phones, smart watches, earbuds, cameras or any electronic device.",
+    "- Books, notes, papers, calculators or bags.",
+    "Being found with a prohibited item can cancel your result, even if you did not use it.",
+    "## Conduct",
+    "- Arrive well before the reporting time; late arrivals may not be admitted.",
+    "- Expect identity checks, biometric or photo verification and a security search.",
+    "- Do not talk to other candidates, copy, or help anyone. Raise your hand for the invigilator if your computer has a problem.",
+    "- Do not try to copy, photograph or memorise and share questions. Exam content is confidential, and sharing it is misconduct.",
+    "- Follow the invigilators' instructions about breaks and leaving the hall."
+   ]
+  },
+  {
+   "id": "passing",
+   "group": "Rules and guidelines",
+   "title": "Passing, validity and attempts",
+   "lines": [
+    "## Passing",
+    "- Theory: at least 60%.",
+    "- CSE: at least 60% overall, and you must pass all three mandatory stations. Failing even one mandatory station fails the CSE, whatever the total.",
+    "- You must pass both components to pass the NRE.",
+    "## Validity",
+    "A theory pass stays valid for five years. You must pass the CSE within those five years.",
+    "## Attempts",
+    "- There is no limit on the number of times you can attempt the complete NRE.",
+    "- If you pass theory but fail the CSE, you re-register for the CSE only.",
+    "- After three consecutive failed CSE attempts, you must sit both theory and CSE again.",
+    "## The CSE in brief",
+    "An OSCE of 20 stations, about 3 hours 30 minutes including the briefing. Each station has 8 minutes, with 2 minutes to change over. It tests interpretation of clinical and diagnostic data, diagnosis, management plans, examination skills and key procedures."
+   ]
+  },
+  {
+   "id": "plan",
+   "group": "Tips",
+   "title": "A 12-week study plan",
+   "lines": [
+    "Spend your time where the marks are. Medicine and Surgery together are half the paper.",
+    "## Weeks 1 to 4: Medicine and basic sciences",
+    "- Medicine by system: cardiology, respiratory, GI and liver, renal, endocrine, neurology, haematology, infectious disease.",
+    "- Revise the matching basic sciences alongside each system: anatomy, physiology, pathology and drugs.",
+    "- Do 40 to 60 practice questions a day and read every explanation, including for questions you got right.",
+    "## Weeks 5 to 8: Surgery, Obstetrics and Gynaecology, Paediatrics",
+    "- Surgery: principles, trauma (ATLS), acute abdomen, GI, urology, orthopaedics, breast and thyroid.",
+    "- Obstetrics: bleeding in pregnancy, hypertension, diabetes, labour and PPH. Gynaecology: menstrual problems, infertility, contraception, cancers.",
+    "- Paediatrics: neonates, growth and the EPI schedule, diarrhoea, pneumonia, malnutrition.",
+    "- Sit your first mock at the end of week 6, to set a baseline.",
+    "## Weeks 9 to 12: the rest, then mocks",
+    "- Eye, ENT, Community Medicine and Forensic Medicine: small but quick marks.",
+    "- One full mock each week under timed conditions, then a day reviewing it.",
+    "- In the last week, revise your weakest topics from the Progress tab. Do not start new subjects."
+   ]
+  },
+  {
+   "id": "sba",
+   "group": "Tips",
+   "title": "How to answer single-best-answer MCQs",
+   "lines": [
+    "- Read the last line first, so you know what is being asked: diagnosis, next step, investigation or treatment.",
+    "- Then read the stem for the key clues: age, sex, setting, timing, and the one abnormal result.",
+    "- Try to answer before looking at the options, then find the option that matches.",
+    "- More than one option can be true. Choose the BEST one for this patient at this moment. 'Next step' usually means the safest, most immediate action.",
+    "- Stabilise first: in an unwell patient, airway, breathing and circulation come before investigations.",
+    "- Choose the least invasive investigation that will answer the question, unless the patient is unstable.",
+    "- Watch the setting. A BHU without a CT scanner changes what you can do next; a referral may be the right answer.",
+    "- Don't overthink. Your first well-reasoned answer is usually right; change it only if you find a clue you missed."
+   ]
+  },
+  {
+   "id": "time",
+   "group": "Tips",
+   "title": "Time management",
+   "lines": [
+    "- About 200 questions in about 210 minutes gives you roughly one minute per question, with a little time to spare.",
+    "- Do a first pass at a steady pace. If a question takes more than 90 seconds, pick your best answer, flag it and move on.",
+    "- Use the time left for flagged questions.",
+    "- There is no negative marking, so make sure every question has an answer before time runs out.",
+    "- Practise under the same conditions: the mocks in this app run on a timer, and the question map shows what is answered and flagged."
+   ]
+  },
+  {
+   "id": "highyield",
+   "group": "Tips",
+   "title": "High-yield themes for Pakistan",
+   "lines": [
+    "The NRE tests whether you are ready to practise as a GP in Pakistan. Make sure you know local priorities well:",
+    "- Infections: tuberculosis (including DOTS and drug-resistant TB), typhoid (including XDR typhoid), dengue, malaria, hepatitis B and C, rabies, tetanus, diarrhoeal disease.",
+    "- Maternal and child health: antenatal care, anaemia in pregnancy, pre-eclampsia, PPH, neonatal resuscitation, the Pakistan EPI schedule, malnutrition, IMCI.",
+    "- Emergencies: organophosphate poisoning, snake bite, heat stroke, road traffic trauma, burns.",
+    "- Chronic disease: diabetes, hypertension, ischaemic heart disease, CKD, thalassaemia.",
+    "- Community Medicine: screening, outbreak investigation, immunisation, biostatistics calculations.",
+    "- Forensic Medicine: injuries, post-mortem changes, poisoning and medicolegal duties."
+   ]
+  },
+  {
+   "id": "app",
+   "group": "Tips",
+   "title": "How to use this app",
+   "lines": [
+    "- Practice: work through each subject in short sets. Answers and explanations show straight away. Practice questions never appear in the mocks.",
+    "- Mocks: 10 papers of 200 questions, weighted like the real theory paper. The timer pauses if you leave, and your answers are saved.",
+    "- Results: your overall score against the 60% pass line, clinical and basic sciences totals, every subject, and the topics to work on.",
+    "- Review: read every explanation after a mock, especially the questions you got wrong or skipped.",
+    "- Progress: track your mock scores and your weakest topics over time.",
+    "All questions are original practice material written for this app. They are not real or recalled NRE questions."
+   ]
+  },
+  {
+   "id": "cse",
+   "group": "After the theory paper",
+   "title": "Preparing for the CSE",
+   "lines": [
+    "Once you pass theory, start CSE preparation early. It needs practice, not just reading.",
+    "- Practise history taking and explaining things to patients in plain language, in Urdu and English.",
+    "- Rehearse systematic examinations: cardiovascular, respiratory, abdominal, neurological, and obstetric and gynaecological.",
+    "- Practise interpreting ECGs, X-rays, ABGs and blood results quickly.",
+    "- Learn the steps of common procedures: cannulation, catheterisation, suturing, basic life support and neonatal resuscitation.",
+    "- Practise against an 8-minute timer with a colleague acting as patient and examiner.",
+    "- Find out from PM&DC notices which stations are mandatory for your session, and make sure you are safe in all of them."
+   ]
+  }
+ ]
+}

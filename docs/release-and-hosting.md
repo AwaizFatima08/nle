@@ -1,0 +1,69 @@
+# Release and hosting kit: Prep Simulator for NLE
+
+## Build
+- Package `com.homilabs.nle_prep` (locked after the first Play upload). Version 1.0.0 (versionCode 1).
+- Build: `jobq run --name nle-release-aab -- flutter build appbundle --release`, then `./gradlew --stop` in `android/`.
+- Before every release: `bash scripts/check-release-ad-ids.sh`, `python3 tool/validate.py`, `flutter test`.
+- Signing: `android/key.properties` → `.secrets/nle-upload.keystore` (not created yet). `.secrets/` goes to the local and Drive backups, never GitHub.
+
+## Website: https://nle.homilabs.org
+- Hostinger: create the subdomain `nle.homilabs.org` in hPanel, then connect Git deployment to `https://github.com/AwaizFatima08/nle`, branch `deploy`, with auto-deployment.
+- Change `website/`, commit, then `bash scripts/publish-site.sh`. Flush the CDN cache in hPanel if pages look stale.
+- Pages: landing, `/privacy.html`, `/terms.html`, `/app-ads.txt`.
+- After Play launch: replace "Coming soon on Google Play" with the Play link, and add the app to homilabs.org.
+
+## AdMob (account homilabs.smc@gmail.com)
+1. Apps → Add app → Android, not yet published → name "Prep Simulator for NLE".
+2. Ad units: banner `nle_home_banner`, interstitial `nle_results_interstitial`.
+3. Put the app id and unit ids into `config/admob.json`, `lib/ads/ad_ids.dart` (`_liveBanner`, `_liveInterstitial`) and the AndroidManifest meta-data; run `bash scripts/check-release-ad-ids.sh`.
+4. After the Play listing is live: AdMob → Apps → this app → Add store (com.homilabs.nle_prep). `app-ads.txt` is already in `website/`.
+5. Privacy & messaging: publish a European regulations message for EEA/UK users (the app already runs Google UMP).
+
+## Play Console
+| Item | Value |
+|---|---|
+| App icon 512×512 | `store-assets/icon-512.png` |
+| Feature graphic | `store-assets/feature-graphic.png` |
+| Privacy policy URL | https://nle.homilabs.org/privacy.html |
+| Website | https://nle.homilabs.org |
+| Contact email | homilabs.smc@gmail.com |
+| Ads | Yes (AdMob banner on home tabs; one interstitial after results or practice) |
+| App access | All functionality available without login |
+| Data safety | Collected and shared: Device or other IDs (advertising ID) and app activity via the ads SDK, purpose Advertising, shared with Google AdMob; encrypted in transit. Attempts stay on the device |
+| Content rating | Reference/educational; No to violence, sexuality, language, drugs, gambling, purchases, user interaction |
+| Target audience | 18+ |
+| Category | Education (Medical is also possible; Education fits exam prep) |
+
+**App name** (22 characters): `Prep Simulator for NLE`
+
+**Short description** (80 max): `NLE/NRE Step 1 mock papers for foreign medical graduates, every answer explained.`
+
+**Full description**:
+```
+Prepare for the PM&DC licensing exam for foreign medical graduates in Pakistan (NLE, now called the National Registration Examination, NRE) the way it feels on the day.
+
+10 FULL-LENGTH MOCK PAPERS
+• 200 single-best-answer MCQs in each, weighted like the theory paper: 140 clinical sciences and 60 applied basic sciences.
+• Timed, with flags and a question map. No negative marking, just like the real paper.
+• Your score against the 60% pass mark, clinical and basic science totals, every subject, and the topics to work on next.
+• Every question explained after you submit.
+
+SUBJECT PRACTICE
+• Question pools for Medicine, Surgery, Obstetrics and Gynaecology, Paediatrics, Ophthalmology, ENT, Pathology, Anatomy, Physiology, Pharmacology, Biochemistry, Community Medicine and Forensic Medicine, by topic.
+• Instant answers and explanations. Practice questions never appear in the mocks.
+
+RULES, GUIDELINES AND TIPS
+• The paper pattern, eligibility and registration, exam-day rules, passing, validity and attempts.
+• A 12-week study plan, how to answer single-best-answer questions, time management and high-yield themes for Pakistan.
+
+PRIVATE AND OFFLINE
+• No account. Everything works offline, and your scores stay on your phone.
+• Free, with light ads, never during a mock or a practice question.
+
+Prep Simulator for NLE is independent practice material by HomiLabs. It is not affiliated with, endorsed by or connected to the Pakistan Medical and Dental Council (PM&DC). All questions are original practice material, not real or recalled papers, and scores are for practice only. Always follow your admit card and official PM&DC notices.
+```
+
+## Before production (open items)
+- Homi reviews the medical content, the guide (especially exam-day rules) and `docs/review-flags.md`.
+- Trademark: "NLE" is used descriptively, with the PM&DC notice in the About screen, listing and website.
+- Phone screenshots (2-8) for the listing.
