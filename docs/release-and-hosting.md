@@ -4,7 +4,9 @@
 - Package `com.homilabs.nle_prep` (locked after the first Play upload). Version 1.0.0 (versionCode 1).
 - Build: `jobq run --name nle-release-aab -- flutter build appbundle --release`, then `./gradlew --stop` in `android/`.
 - Before every release: `bash scripts/check-release-ad-ids.sh`, `python3 tool/validate.py`, `flutter test`.
-- Signing: `android/key.properties` → `.secrets/nle-upload.keystore` (not created yet). `.secrets/` goes to the local and Drive backups, never GitHub.
+- Bundle: `releases/v1.0.0-1/nle-prep-1.0.0-1.aab` (49 MB, local and Drive only). SHA-256 `59c15ddb4d841e226ef0290ed64397865ac891f239547eefb8f0fe9496477996` (built 4 Nov 2026).
+- Upload key SHA-1: `A8:75:DC:DE:C7:45:45:2C:D7:EE:81:B9:EB:25:9F:06:25:5F:B4:07`.
+- Signing: `android/key.properties` → `.secrets/nle-upload.keystore` (credentials in `.secrets/nle-upload-keystore-credentials.txt`). `.secrets/` goes to the local and Drive backups, never GitHub. Losing it means a support request to Google.
 
 ## Website: https://nle.homilabs.org
 - Hostinger: create the subdomain `nle.homilabs.org` in hPanel, then connect Git deployment to `https://github.com/AwaizFatima08/nle`, branch `deploy`, with auto-deployment.
@@ -23,6 +25,7 @@
 |---|---|
 | App icon 512×512 | `store-assets/icon-512.png` |
 | Feature graphic | `store-assets/feature-graphic.png` |
+| Phone screenshots | `store-assets/screenshots/01-05` (1080×2160, profile build, no ads shown) |
 | Privacy policy URL | https://nle.homilabs.org/privacy.html |
 | Website | https://nle.homilabs.org |
 | Contact email | homilabs.smc@gmail.com |
@@ -65,4 +68,3 @@ Prep Simulator for NLE is independent practice material by HomiLabs. It is not a
 ## Before production (open items)
 - Homi reviews the medical content, the guide (especially exam-day rules) and `docs/review-flags.md`.
 - Trademark: "NLE" is used descriptively, with the PM&DC notice in the About screen, listing and website.
-- Phone screenshots (2-8) for the listing.
