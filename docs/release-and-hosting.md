@@ -71,7 +71,8 @@ Prep Simulator for NLE is independent practice material by HomiLabs. It is not a
 ```
 
 ## Release history
-- 4 Nov 2026: 1 (1.0.0) published to **internal testing** (no testers yet; add an email list under Internal testing → Testers). Store listing and App content (8 changes) sent for Google review the same day. Production not started.
+- 4 Nov 2026: 1 (1.0.0) published to **internal testing**, email list "Testers" (homi55@gmail.com, homi55.home@gmail.com).
+- 4 Nov 2026: 1 (1.0.0) sent to **production**, full rollout, all 178 countries / regions, together with the store listing and App content, in one Google review. Homi chose to go to production directly; the medical review items below stay open.
 
 ## Before production (open items)
 - Homi reviews the medical content, the guide (especially exam-day rules) and `docs/review-flags.md`.
