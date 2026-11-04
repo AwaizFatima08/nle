@@ -21,6 +21,8 @@
 - Privacy & messaging: European regulations messages are per app, not account-wide. "Prep Simulator for NLE consent" (this app only, privacy URL https://nle.homilabs.org/privacy.html, "Do not consent" on for all countries) published 4 Nov 2026 for the app's Google UMP request.
 
 ## Play Console
+App "Prep Simulator for NLE", Play app id 4975932169548060068 (Homilabs account 9161588402757830740), created 4 Nov 2026.
+
 | Item | Value |
 |---|---|
 | App icon 512×512 | `store-assets/icon-512.png` |
@@ -31,14 +33,17 @@
 | Contact email | homilabs.smc@gmail.com |
 | Ads | Yes (AdMob banner on home tabs; one interstitial after results or practice) |
 | App access | All functionality available without login |
-| Data safety | Collected and shared: Device or other IDs (advertising ID) and app activity via the ads SDK, purpose Advertising, shared with Google AdMob; encrypted in transit. Attempts stay on the device |
-| Content rating | Reference/educational; No to violence, sexuality, language, drugs, gambling, purchases, user interaction |
+| Data safety | Collected and shared via the AdMob SDK, required, not ephemeral: approximate location (Advertising), app interactions (Analytics, Advertising), diagnostics (Analytics), device or other IDs (Advertising, Fraud prevention). Encrypted in transit; no accounts. Attempts stay on the device |
+| Advertising ID | Yes, purpose Advertising or marketing |
+| Health apps | Medical reference and education |
+| Government / financial | No / no financial features |
+| Content rating | IARC, All Other App Types, primarily educational, No to everything else. Result: ESRB Everyone, PEGI 3, USK all ages, IARC 3+ (submitted 4 Nov 2026) |
 | Target audience | 18+ |
 | Category | Education (Medical is also possible; Education fits exam prep) |
 
 **App name** (22 characters): `Prep Simulator for NLE`
 
-**Short description** (80 max): `NLE/NRE Step 1 mock papers for foreign medical graduates, every answer explained.`
+**Short description** (80 max): `NLE/NRE Step 1 mock papers for foreign medical graduates, all answers explained.`
 
 **Full description**:
 ```
@@ -64,6 +69,9 @@ PRIVATE AND OFFLINE
 
 Prep Simulator for NLE is independent practice material by HomiLabs. It is not affiliated with, endorsed by or connected to the Pakistan Medical and Dental Council (PM&DC). All questions are original practice material, not real or recalled papers, and scores are for practice only. Always follow your admit card and official PM&DC notices.
 ```
+
+## Release history
+- 4 Nov 2026: 1 (1.0.0) published to **internal testing** (no testers yet; add an email list under Internal testing → Testers). Store listing and App content (8 changes) sent for Google review the same day. Production not started.
 
 ## Before production (open items)
 - Homi reviews the medical content, the guide (especially exam-day rules) and `docs/review-flags.md`.
