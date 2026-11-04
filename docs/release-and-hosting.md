@@ -16,7 +16,7 @@
 - Created 4 Nov 2026: app "Prep Simulator for NLE", App ID `ca-app-pub-2087846699268567~9863225682`; units banner `nle_home_banner` and interstitial `nle_results_interstitial` (ids in `config/admob.json`). Debug builds use Google test units.
 - "Limited ad serving" until the Play listing is live.
 - After the Play listing is live: AdMob → Apps → this app → Add store (com.homilabs.nle_prep). `app-ads.txt` is already in `website/`.
-- Privacy & messaging: publish a European regulations message for EEA/UK users (the app already runs Google UMP).
+- Privacy & messaging: European regulations messages are per app, not account-wide. "Prep Simulator for NLE consent" (this app only, privacy URL https://nle.homilabs.org/privacy.html, "Do not consent" on for all countries) published 4 Nov 2026 for the app's Google UMP request.
 
 ## Play Console
 | Item | Value |
