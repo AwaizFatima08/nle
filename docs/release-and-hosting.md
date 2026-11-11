@@ -83,6 +83,7 @@ All questions are original practice material written by HomiLabs, not real or re
 - 4 Nov 2026: 1 (1.0.0) sent to **production**, full rollout, all 178 countries / regions, together with the store listing and App content, in one Google review. Homi chose to go to production directly; the medical review items below stay open.
 - 7 Nov 2026: production rejected under the **Misleading Claims** policy (government information): no link to the official source and no clear "not a government entity" disclaimer.
 - 11 Nov 2026: the 1.0.0 submission was removed from review. 1.0.1 (versionCode 2) adds a "Not a government app" notice on the Mocks, Guide and About screens, tappable PM&DC links (pmdc.pk, pmdc.pk/Publication/Syllabus, nre.pmdc.pk) on Guide and About and in the first guide article, and the same on the website. The store description now opens with the disclaimer and ends with an "Official sources" list; the short description starts with "Unofficial". AI asset declaration: don't label (icon and feature graphic drawn in code, screenshots from the app).
+- 11 Nov 2026: 2 (1.0.1) sent to **production** as release 2 (1.0.0 not included), full rollout, all 178 countries / regions, with the new listing and App content, in one Google review.
 
 ## Before production (open items)
 - Homi reviews the medical content, the guide (especially exam-day rules) and `docs/review-flags.md`.
