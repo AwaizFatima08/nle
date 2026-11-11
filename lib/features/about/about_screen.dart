@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:nle_prep/ads/ad_service.dart';
 import 'package:nle_prep/app.dart';
+import 'package:nle_prep/ui/official_sources.dart';
 import 'package:nle_prep/ui/theme.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -28,6 +29,7 @@ class AboutScreen extends ConsumerWidget {
           const SizedBox(height: AppSpacing.md),
           Text(l10n.aboutBody),
           const SizedBox(height: AppSpacing.md),
+          const OfficialSourcesCard(),
           ListTile(title: Text(l10n.website), onTap: () => _open(_site)),
           ListTile(
             title: Text(l10n.privacy),

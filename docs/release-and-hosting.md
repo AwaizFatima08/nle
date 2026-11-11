@@ -1,10 +1,10 @@
 # Release and hosting kit: Prep Simulator for NLE
 
 ## Build
-- Package `com.homilabs.nle_prep` (locked after the first Play upload). Version 1.0.0 (versionCode 1).
+- Package `com.homilabs.nle_prep` (locked after the first Play upload). Version 1.0.1 (versionCode 2).
 - Build: `jobq run --name nle-release-aab -- flutter build appbundle --release`, then `./gradlew --stop` in `android/`.
 - Before every release: `bash scripts/check-release-ad-ids.sh`, `python3 tool/validate.py`, `flutter test`.
-- Bundle: `releases/v1.0.0-1/nle-prep-1.0.0-1.aab` (49 MB, local and Drive only). SHA-256 `59c15ddb4d841e226ef0290ed64397865ac891f239547eefb8f0fe9496477996` (built 4 Nov 2026).
+- Bundle: `releases/v1.0.1-2/nle-prep-1.0.1-2.aab` (49 MB, local and Drive only). SHA-256 `7971b0fa73436f8b7933e4c58a6448fc7b8746aca407492748650539aa42fa5b` (built 11 Nov 2026). Previous: `releases/v1.0.0-1/nle-prep-1.0.0-1.aab`.
 - Upload key SHA-1: `A8:75:DC:DE:C7:45:45:2C:D7:EE:81:B9:EB:25:9F:06:25:5F:B4:07`.
 - Signing: `android/key.properties` → `.secrets/nle-upload.keystore` (credentials in `.secrets/nle-upload-keystore-credentials.txt`). `.secrets/` goes to the local and Drive backups, never GitHub. Losing it means a support request to Google.
 
@@ -47,6 +47,8 @@ App "Prep Simulator for NLE", Play app id 4975932169548060068 (Homilabs account 
 
 **Full description**:
 ```
+NOT A GOVERNMENT APP. Prep Simulator for NLE is independent practice by HomiLabs. It does not represent the Pakistan Medical and Dental Council (PM&DC) or any government entity, and is not affiliated with or endorsed by PM&DC.
+
 Prepare for the PM&DC licensing exam for foreign medical graduates in Pakistan (NLE, now called the National Registration Examination, NRE) the way it feels on the day.
 
 10 FULL-LENGTH MOCK PAPERS
@@ -67,12 +69,20 @@ PRIVATE AND OFFLINE
 • No account. Everything works offline, and your scores stay on your phone.
 • Free, with light ads, never during a mock or a practice question.
 
-Prep Simulator for NLE is independent practice material by HomiLabs. It is not affiliated with, endorsed by or connected to the Pakistan Medical and Dental Council (PM&DC). All questions are original practice material, not real or recalled papers, and scores are for practice only. Always follow your admit card and official PM&DC notices.
+OFFICIAL SOURCES
+The exam information in this app is summarised from PM&DC's official pages. Always check them, your admit card and official PM&DC notices:
+• PM&DC website: https://pmdc.pk
+• NRE standard and syllabus: https://pmdc.pk/Publication/Syllabus
+• NRE registration portal: https://nre.pmdc.pk
+
+All questions are original practice material written by HomiLabs, not real or recalled papers, and scores are for practice only.
 ```
 
 ## Release history
 - 4 Nov 2026: 1 (1.0.0) published to **internal testing**, email list "Testers" (homi55@gmail.com, homi55.home@gmail.com).
 - 4 Nov 2026: 1 (1.0.0) sent to **production**, full rollout, all 178 countries / regions, together with the store listing and App content, in one Google review. Homi chose to go to production directly; the medical review items below stay open.
+- 7 Nov 2026: production rejected under the **Misleading Claims** policy (government information): no link to the official source and no clear "not a government entity" disclaimer.
+- 11 Nov 2026: the 1.0.0 submission was removed from review. 1.0.1 (versionCode 2) adds a "Not a government app" notice on the Mocks, Guide and About screens, tappable PM&DC links (pmdc.pk, pmdc.pk/Publication/Syllabus, nre.pmdc.pk) on Guide and About and in the first guide article, and the same on the website. The store description now opens with the disclaimer and ends with an "Official sources" list; the short description starts with "Unofficial". AI asset declaration: don't label (icon and feature graphic drawn in code, screenshots from the app).
 
 ## Before production (open items)
 - Homi reviews the medical content, the guide (especially exam-day rules) and `docs/review-flags.md`.

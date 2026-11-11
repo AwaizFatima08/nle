@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 import 'package:nle_prep/content/content_repository.dart';
 import 'package:nle_prep/content/models.dart';
 import 'package:nle_prep/ui/async_value_view.dart';
+import 'package:nle_prep/ui/official_sources.dart';
 import 'package:nle_prep/ui/theme.dart';
 
 class GuideTab extends ConsumerWidget {
@@ -22,6 +23,7 @@ class GuideTab extends ConsumerWidget {
       return ListView(
         padding: const EdgeInsetsDirectional.all(AppSpacing.md),
         children: [
+          const OfficialSourcesCard(),
           for (final MapEntry(key: group, value: items) in groups.entries) ...[
             Padding(
               padding: const EdgeInsetsDirectional.symmetric(

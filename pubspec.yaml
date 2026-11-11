@@ -1,7 +1,7 @@
 name: nle_prep
 description: "Prep Simulator for NLE: PM&DC NLE/NRE Step 1 mock papers and practice by HomiLabs."
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ^3.11.5

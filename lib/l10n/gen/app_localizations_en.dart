@@ -252,7 +252,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get aboutBody =>
-      'Prep Simulator for NLE is an independent practice app by HomiLabs for foreign medical graduates preparing for the PM&DC licensing examination (NLE, now the National Registration Examination, NRE). It is not affiliated with, endorsed by or connected to the Pakistan Medical and Dental Council. All questions are original practice material written for this app, not real or recalled papers, and scores are for practice only. Medical content is for exam preparation, not clinical advice.';
+      'Prep Simulator for NLE is an independent practice app by HomiLabs for foreign medical graduates preparing for the PM&DC licensing examination (NLE, now the National Registration Examination, NRE). It is not a government app: it does not represent PM&DC or any government entity, and it is not affiliated with, endorsed by or connected to the Pakistan Medical and Dental Council. Exam rules in this app are summarised from PM&DC\'s own website (links below); always check the official source. All questions are original practice material written for this app, not real or recalled papers, and scores are for practice only. Medical content is for exam preparation, not clinical advice.';
 
   @override
   String get privacy => 'Privacy policy';
@@ -270,7 +270,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get contact => 'Contact: homilabs.smc@gmail.com';
 
   @override
-  String get version => 'Version 1.0.0';
+  String get version => 'Version 1.0.1';
 
   @override
   String get reviewTitle => 'Review answers';
@@ -292,4 +292,17 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get groupBasic => 'Applied basic sciences';
+
+  @override
+  String get notGovernment =>
+      'Not a government app. Prep Simulator for NLE is independent practice by HomiLabs. It does not represent PM&DC or any government entity. Exam information here is summarised from PM&DC\'s official website: always check the source below.';
+
+  @override
+  String get sourcePmdc => 'PM&DC official website';
+
+  @override
+  String get sourceSyllabus => 'PM&DC NRE standard and syllabus';
+
+  @override
+  String get sourcePortal => 'PM&DC NRE registration portal';
 }

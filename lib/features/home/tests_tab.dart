@@ -10,6 +10,7 @@ import 'package:nle_prep/content/content_repository.dart';
 import 'package:nle_prep/content/models.dart';
 import 'package:nle_prep/settings/settings_repository.dart';
 import 'package:nle_prep/ui/async_value_view.dart';
+import 'package:nle_prep/ui/official_sources.dart';
 import 'package:nle_prep/ui/theme.dart';
 
 class TestsTab extends ConsumerWidget {
@@ -92,6 +93,7 @@ class _TestsList extends ConsumerWidget {
           '${mode.subtitle}. ${context.l10n.testsIntro(mode.questionCount, mode.minutes)}',
         ),
         const SizedBox(height: AppSpacing.sm),
+        const OfficialSourcesCard(showLinks: false),
         for (final paper in shown) _PaperTile(paper: paper, attempts: attempts),
       ],
     );

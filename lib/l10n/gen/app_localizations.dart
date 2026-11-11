@@ -521,7 +521,7 @@ abstract class AppLocalizations {
   /// No description provided for @aboutBody.
   ///
   /// In en, this message translates to:
-  /// **'Prep Simulator for NLE is an independent practice app by HomiLabs for foreign medical graduates preparing for the PM&DC licensing examination (NLE, now the National Registration Examination, NRE). It is not affiliated with, endorsed by or connected to the Pakistan Medical and Dental Council. All questions are original practice material written for this app, not real or recalled papers, and scores are for practice only. Medical content is for exam preparation, not clinical advice.'**
+  /// **'Prep Simulator for NLE is an independent practice app by HomiLabs for foreign medical graduates preparing for the PM&DC licensing examination (NLE, now the National Registration Examination, NRE). It is not a government app: it does not represent PM&DC or any government entity, and it is not affiliated with, endorsed by or connected to the Pakistan Medical and Dental Council. Exam rules in this app are summarised from PM&DC\'s own website (links below); always check the official source. All questions are original practice material written for this app, not real or recalled papers, and scores are for practice only. Medical content is for exam preparation, not clinical advice.'**
   String get aboutBody;
 
   /// No description provided for @privacy.
@@ -557,7 +557,7 @@ abstract class AppLocalizations {
   /// No description provided for @version.
   ///
   /// In en, this message translates to:
-  /// **'Version 1.0.0'**
+  /// **'Version 1.0.1'**
   String get version;
 
   /// No description provided for @reviewTitle.
@@ -601,6 +601,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Applied basic sciences'**
   String get groupBasic;
+
+  /// No description provided for @notGovernment.
+  ///
+  /// In en, this message translates to:
+  /// **'Not a government app. Prep Simulator for NLE is independent practice by HomiLabs. It does not represent PM&DC or any government entity. Exam information here is summarised from PM&DC\'s official website: always check the source below.'**
+  String get notGovernment;
+
+  /// No description provided for @sourcePmdc.
+  ///
+  /// In en, this message translates to:
+  /// **'PM&DC official website'**
+  String get sourcePmdc;
+
+  /// No description provided for @sourceSyllabus.
+  ///
+  /// In en, this message translates to:
+  /// **'PM&DC NRE standard and syllabus'**
+  String get sourceSyllabus;
+
+  /// No description provided for @sourcePortal.
+  ///
+  /// In en, this message translates to:
+  /// **'PM&DC NRE registration portal'**
+  String get sourcePortal;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
