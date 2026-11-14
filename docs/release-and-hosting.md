@@ -17,7 +17,7 @@
 ## AdMob (account homilabs.smc@gmail.com)
 - Created 4 Nov 2026: app "Prep Simulator for NLE", App ID `ca-app-pub-2087846699268567~9863225682`; units banner `nle_home_banner` and interstitial `nle_results_interstitial` (ids in `config/admob.json`). Debug builds use Google test units.
 - "Limited ad serving" until the Play listing is live.
-- After the Play listing is live: AdMob → Apps → this app → Add store (com.homilabs.nle_prep). `app-ads.txt` is already in `website/`.
+- Store linked 14 Nov 2026: Google Play listing com.homilabs.nle_prep added and verified; AdMob app review typically 2-3 days (ad serving limited until then). `app-ads.txt` is live at https://nle.homilabs.org/app-ads.txt; AdMob crawls it after linking (check Apps → app-ads.txt in a day).
 - Privacy & messaging: European regulations messages are per app, not account-wide. "Prep Simulator for NLE consent" (this app only, privacy URL https://nle.homilabs.org/privacy.html, "Do not consent" on for all countries) published 4 Nov 2026 for the app's Google UMP request.
 
 ## Play Console
@@ -84,6 +84,7 @@ All questions are original practice material written by HomiLabs, not real or re
 - 7 Nov 2026: production rejected under the **Misleading Claims** policy (government information): no link to the official source and no clear "not a government entity" disclaimer.
 - 11 Nov 2026: the 1.0.0 submission was removed from review. 1.0.1 (versionCode 2) adds a "Not a government app" notice on the Mocks, Guide and About screens, tappable PM&DC links (pmdc.pk, pmdc.pk/Publication/Syllabus, nre.pmdc.pk) on Guide and About and in the first guide article, and the same on the website. The store description now opens with the disclaimer and ends with an "Official sources" list; the short description starts with "Unofficial". AI asset declaration: don't label (icon and feature graphic drawn in code, screenshots from the app).
 - 11 Nov 2026: 2 (1.0.1) sent to **production** as release 2 (1.0.0 not included), full rollout, all 178 countries / regions, with the new listing and App content, in one Google review.
+- 14 Nov 2026: approved; **live on Google Play** (https://play.google.com/store/apps/details?id=com.homilabs.nle_prep).
 
 ## Before production (open items)
 - Homi reviews the medical content, the guide (especially exam-day rules) and `docs/review-flags.md`.
