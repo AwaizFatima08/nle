@@ -12,7 +12,7 @@
 - Hostinger: create the subdomain `nle.homilabs.org` in hPanel, then connect Git deployment to `https://github.com/AwaizFatima08/nle`, branch `deploy`, with auto-deployment.
 - Change `website/`, commit, then `bash scripts/publish-site.sh`. Flush the CDN cache in hPanel if pages look stale.
 - Pages: landing, `/privacy.html`, `/terms.html`, `/app-ads.txt`.
-- After Play launch: replace "Coming soon on Google Play" with the Play link, and add the app to homilabs.org.
+- 14 Nov 2026: "Coming soon" replaced with the "Get it on Google Play" link. Still open: add the app to homilabs.org.
 
 ## AdMob (account homilabs.smc@gmail.com)
 - Created 4 Nov 2026: app "Prep Simulator for NLE", App ID `ca-app-pub-2087846699268567~9863225682`; units banner `nle_home_banner` and interstitial `nle_results_interstitial` (ids in `config/admob.json`). Debug builds use Google test units.
