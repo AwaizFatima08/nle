@@ -554,10 +554,22 @@ abstract class AppLocalizations {
   /// **'Contact: homilabs.smc@gmail.com'**
   String get contact;
 
+  /// No description provided for @rateApp.
+  ///
+  /// In en, this message translates to:
+  /// **'Rate this app on Google Play'**
+  String get rateApp;
+
+  /// No description provided for @moreFromHomiLabs.
+  ///
+  /// In en, this message translates to:
+  /// **'More from HomiLabs'**
+  String get moreFromHomiLabs;
+
   /// No description provided for @version.
   ///
   /// In en, this message translates to:
-  /// **'Version 1.0.1'**
+  /// **'Version 1.0.2'**
   String get version;
 
   /// No description provided for @reviewTitle.

@@ -7,6 +7,7 @@ import 'package:nle_prep/content/content_repository.dart';
 import 'package:nle_prep/content/models.dart';
 import 'package:nle_prep/core/clock.dart';
 import 'package:nle_prep/core/result.dart';
+import 'package:nle_prep/core/review_prompt.dart';
 import 'package:nle_prep/core/scoring.dart';
 import 'package:nle_prep/settings/settings_repository.dart';
 
@@ -134,6 +135,7 @@ class ExamNotifier extends AsyncNotifier<ExamState> {
     await _persist(next);
     await ref.read(practiceTallyProvider.notifier).recordAll(score.topics);
     state = AsyncData(current.withAttempt(next));
+    unawaited(ref.read(reviewPrompterProvider).mockFinished());
   }
 }
 
